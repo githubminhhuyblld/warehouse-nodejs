@@ -48,10 +48,6 @@ const userSchema = new mongoose.Schema(
         birthday: {
             type: Number,
         },
-        shop: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Shop",
-        },
         roles: [
             {
                 type: mongoose.Schema.Types.ObjectId,
